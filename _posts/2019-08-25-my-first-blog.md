@@ -12,6 +12,8 @@ HTML source code
 <img src="2019-08-24-21-23-57.png" width=" 450" height=" 300" />
 ```
 
+This should be a very very very long paragraph in order to test paragraph reflowing and warp text settings for both desktop and mobile versions of the same page.
+
 Code block with line numbering
 
 ```javascript
