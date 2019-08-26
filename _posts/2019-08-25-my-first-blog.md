@@ -34,6 +34,7 @@ end
 ```
 
 Table Example
+-------------
 head1 | head two | three
 -------|-----------|------
 ok | good fried fish | nice
