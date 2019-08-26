@@ -14,7 +14,7 @@ HTML source code
 
 Code block with line numbering
 
-```javascript {.line-numbers}
+```javascript
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require("./lang/" + l);
