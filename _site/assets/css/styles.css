@@ -257,11 +257,9 @@ pre code { color: #f8f8f2; }
 
 li pre { margin-left: -60px; padding-left: 60px; }
 
-table { width: 100%; border: 1px solid #373737; margin-bottom: 20px; text-align: left; }
+table { width: 100%; border-collapse: collapse; }
 
-th { text-align: left; padding: 5px 10px; background: #373737; color: #fff; }
-
-td { text-align: left; padding: 5px 10px; border: 1px solid #373737; }
+th, td { text-align: left; padding: 5px 10px; border-bottom: 1px solid #aaa; }
 
 dt { color: #222; font-weight: 700; }
 

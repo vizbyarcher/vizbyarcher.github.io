@@ -231,24 +231,13 @@ pre {
 
 table {
   width:100%;
-  border: 1px solid #373737;
-  margin-bottom: 20px;
-  text-align: left;
-
+  border-collapse:collapse;
 }
 
-th {
+th, td {
   text-align:left;
   padding:5px 10px;
-  background: #373737;
-  color: #fff; 
-
-}
-
-td {
-  text-align:left;
-  padding:5px 10px;
-  border: 1px solid #373737;
+  border-bottom:1px solid #aaa;
 }
 
 dt {
