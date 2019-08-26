@@ -5,6 +5,7 @@ author: me
 Now I can start writing about something.
 
 Let's paste in an image.
+![some screenshot](/assets/images/Capture6.png)
 
 HTML source code
 
