@@ -16,13 +16,13 @@ This should be a very very very long paragraph in order to test paragraph reflow
 
 Code block with line numbering
 
-```javascript
+{% highlight javascript linenos %}
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require("./lang/.............................................../" + l);
   return true;
 };
-```
+{% endhighlight %}
 
 Code block without line numbering
 
