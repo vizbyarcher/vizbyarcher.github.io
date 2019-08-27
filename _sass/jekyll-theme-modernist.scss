@@ -47,7 +47,7 @@ header {
   background:#C6EAFA;
   background: linear_gradient(#DDFBFC, #C6EAFA);
   position:relative;
-  padding:15px 20px;
+  padding:5px 30px 25px 30px;
   border-bottom:1px solid #B2D2E1;
 
   h1 {
@@ -57,6 +57,17 @@ header {
     line-height:1.2;
     color:#069;
     text-shadow:rgba(#fff, 0.9) 0 1px 0;
+  
+    nav {
+      float: right;
+      font-size: 15px;
+
+      .current {
+        color: black;
+      }
+
+    }
+  
   }
 
   &.without-description h1 {
