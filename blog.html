@@ -1,11 +1,11 @@
 ---
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h3>Recent Posts</h3>
 
 <ul>
   {% for post in site.posts %}
-    <li>
+    <li class="nomarker">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>
     </li>

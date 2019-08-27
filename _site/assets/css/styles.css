@@ -199,6 +199,8 @@ a { color: #069; text-decoration: none; }
 
 p { margin: 0 0 20px; padding: 0; }
 
+p .thick { font-weight: bold; }
+
 strong { color: #222; font-weight: 700; }
 
 header { border-radius: 8px 8px 0 0; background: #C6EAFA; background: linear_gradient(#DDFBFC, #C6EAFA); position: relative; padding: 5px 30px 25px 30px; border-bottom: 1px solid #B2D2E1; }
@@ -248,6 +250,8 @@ h1 { font-size: 28px; }
 h2 { color: #393939; }
 
 h3, h4, h5, h6 { color: #494949; }
+
+li.nomarker { list-style-type: none; position: relative; left: -40px; }
 
 blockquote { margin: 0 -20px 20px; padding: 15px 20px 1px 40px; font-style: italic; background: #ccc; background: rgba(0, 0, 0, 0.06); color: #222; }
 
