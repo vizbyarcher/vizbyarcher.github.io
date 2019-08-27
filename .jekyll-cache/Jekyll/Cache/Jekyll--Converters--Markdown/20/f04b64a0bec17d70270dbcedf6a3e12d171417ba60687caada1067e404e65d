@@ -1,66 +1,4 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My First Blog</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <script src="/assets/js/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>My First Blog</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="My First Blog" />
-<meta name="author" content="me" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Now I can start writing about something." />
-<meta property="og:description" content="Now I can start writing about something." />
-<link rel="canonical" href="http://localhost:4000/2019/08/25/my-first-blog.html" />
-<meta property="og:url" content="http://localhost:4000/2019/08/25/my-first-blog.html" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-08-25T00:00:00+03:00" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/2019/08/25/my-first-blog.html","headline":"My First Blog","dateModified":"2019-08-25T00:00:00+03:00","datePublished":"2019-08-25T00:00:00+03:00","author":{"@type":"Person","name":"me"},"description":"Now I can start writing about something.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/08/25/my-first-blog.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-          <h1>
-              <nav>
-    
-        <a href="/" >Home</a>
-    
-        <a href="/blog.html" >Blog</a>
-    
-        <a href="/staff.html" >Projects</a>
-    
-        <a href="/staff.html" >Staff</a>
-    
-        <a href="/about.html" >About</a>
-    
-</nav>
-
-          </h1>
-      </header>
-      
-   
-      
-      <section>
-      <h1>My First Blog</h1>
-
-<p>
-  
-  
-  
-    <a href="/authors/me.html"class="thick"> VizbyArcher</a> -
-  
-  25 Aug 2019
-</p>
-
-<p>Now I can start writing about something.</p>
+I"X<p>Now I can start writing about something.</p>
 
 <p>Let’s paste in an image.
 <img src="/assets/images/Capture6.PNG" alt="some screenshot" /></p>
@@ -311,9 +249,4 @@ ok | good fried fish | nice
 out of stock | good and plenty | nice
 ok | good biscuits | hmm
 ok | good soup drop | yummy</p>
-  
-      </section>
-    </div>
-    
-  </body>
-</html>
+:ET

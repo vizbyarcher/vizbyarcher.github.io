@@ -255,6 +255,12 @@ li.nomarker { list-style-type: none; position: relative; left: -40px; }
 
 blockquote { margin: 0 -20px 20px; padding: 15px 20px 1px 40px; font-style: italic; background: #ccc; background: rgba(0, 0, 0, 0.06); color: #222; }
 
+figure { margin-left: 0px; margin-right: 0px; }
+
+figure pre { padding: 15px; }
+
+figure .lineno { padding: 5px; }
+
 img { max-width: 100%; }
 
 code, pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal; color: #333; font-size: 12px; overflow-x: auto; }

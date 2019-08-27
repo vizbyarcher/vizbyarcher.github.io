@@ -225,6 +225,18 @@ blockquote {
   color:#222;
 }
 
+figure {
+  margin-left: 0px;
+  margin-right: 0px;
+  & pre {
+    padding: 15px;
+  }
+  .lineno {
+    padding: 5px;
+  }
+}
+
+
 img {
   max-width:100%;
 }
