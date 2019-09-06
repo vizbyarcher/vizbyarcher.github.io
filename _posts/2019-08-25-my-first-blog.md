@@ -4,6 +4,8 @@ author: me
 
 Now I can start writing about something.
 
+First let's insert a link to some [Page](/assets/html/BachelorBucharestMap.html).
+
 Let's paste in an image.
 ![some screenshot](/assets/images/Capture6.PNG)
 
