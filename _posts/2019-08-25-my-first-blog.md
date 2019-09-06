@@ -6,7 +6,10 @@ Now I can start writing about something.
 
 First let's insert a link to some [Page](/assets/html/BachelorBucharestMap.html).
 
-Let's paste in an image.
+Now let's see an image linking to a page:
+[![Bachelor Bucharest Map](/assets/images/cap_BachelorBucharestMap.PNG)](/assets/html/BachelorBucharestMap.html)
+
+Let's paste in another image.
 ![some screenshot](/assets/images/Capture6.PNG)
 
 HTML source code
