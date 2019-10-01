@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300italic,700italic,300,700");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300italic,700italic,300,700");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300italic,700italic,300,700");
 .highlight pre { background-color: #272822; }
 
 .highlight .hll { background-color: #272822; }
@@ -187,15 +190,15 @@
 .highlight .gi { color: #a6e22e; }
 
 /* Generic.Inserted & Diff Inserted */
-html { background: #6C7989; background: #6C7989 linear_gradient(#6C7989, #434B55) fixed; }
+html { background: #5F5B6B; background: #5F5B6B linear_gradient(#938ea0, #5F5B6B) fixed; }
 
-body { padding: 50px 0; margin: 0; font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #555; font-weight: 300; background: inline-image("checker.png") fixed; }
+body { padding: 50px 0; margin: 0; font: 14px/1.5 Josefin Sans, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #0B3142; font-weight: 300; }
 
-.wrapper { width: 640px; margin: 0 auto; background: #DEDEDE; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px; }
+.wrapper { width: 640px; margin: 0 auto; background: #D6D3F0; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px; }
 
 header, section, footer { display: block; }
 
-a { color: #069; text-decoration: none; }
+a { color: #CA054D; text-decoration: none; }
 
 p { margin: 0 0 20px; padding: 0; }
 
@@ -203,9 +206,9 @@ p .thick { font-weight: bold; }
 
 strong { color: #222; font-weight: 700; }
 
-header { border-radius: 8px 8px 0 0; background: #C6EAFA; background: linear_gradient(#DDFBFC, #C6EAFA); position: relative; padding: 5px 30px 25px 30px; border-bottom: 1px solid #B2D2E1; }
+header { border-radius: 8px 8px 0 0; background: #D7FDF0; background: linear_gradient(#D7FDF0, #6d998a); position: relative; padding: 5px 30px 25px 30px; border-bottom: 1px solid #f9d9ff; }
 
-header h1 { margin: 0; padding: 0; font-size: 24px; line-height: 1.2; color: #069; text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0; }
+header h1 { margin: 0; padding: 0; font-size: 24px; line-height: 1.2; color: #0F5257; }
 
 header h1 nav { float: right; font-size: 15px; }
 
@@ -213,9 +216,9 @@ header h1 nav .current { color: black; }
 
 header.without-description h1 { margin: 10px 0; }
 
-header p { margin: 0; color: #61778B; width: 300px; font-size: 13px; }
+header p { margin: 0; color: #D6D3F0; width: 300px; font-size: 13px; }
 
-header p.view { display: none; font-weight: 700; text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0; -webkit-font-smoothing: antialiased; }
+header p.view { display: none; font-weight: 700; text-shadow: rgba(249, 217, 255, 0.9) 0 1px 0; -webkit-font-smoothing: antialiased; }
 
 header p.view a { color: #06c; }
 

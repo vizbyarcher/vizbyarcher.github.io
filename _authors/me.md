@@ -1,6 +1,6 @@
 ---
 short_name: me
-name: VizbyArcher
+name: VIZbyArcher
 position: Chief Editor
 ---
-VizbyArcher is the Chief Editor of this site.
+VIZbyArcher is the Chief Editor of this site.
