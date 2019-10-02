@@ -11,6 +11,6 @@ title: VIZbyArcher
 }
 </style>
 # ![VIZbyArcher](/assets/images/logo3.png){: .image-left }   VIZbyArcher
-### _Freelancing in Data Visualization, Data Analysis and Visual Analytics_
+##### _Freelancing in Data Visualization, Data Analysis and Visual Analytics_
 
 ![Data Visualization, Data Analysis, Visual Analytics](/assets/images/homepage.png)

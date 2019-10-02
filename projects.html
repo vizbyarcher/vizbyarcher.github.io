@@ -15,7 +15,7 @@ title: Projects
 <ul>
   {% for project in site.projects %}
     <li class="nomarker">
-      <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
+      <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
       <p><img class="image-left" src="{{ project.thumbnail }}" />{{ project.excerpt }}</p>
     </li>
   {% endfor %}

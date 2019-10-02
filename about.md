@@ -3,4 +3,6 @@ title: About
 ---
 ## About
 
-Data Viz passionate and Python learner.
+ We are freelance data analysts and visualizers.
+
+![Contact us](/assets/images/contact.png)
