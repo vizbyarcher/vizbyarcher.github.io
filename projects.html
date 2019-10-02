@@ -1,13 +1,22 @@
 ---
 title: Projects
 ---
+<style type="text/css">
+  .image-left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding: 0px 20px 0px 15px;
+  }
+  </style>
 <h2>Projects</h2>
 
 <ul>
   {% for project in site.projects %}
     <li class="nomarker">
       <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
-      <p>{{ project.excerpt }}</p>
+      <p><img class="image-left" src="{{ project.thumbnail }}" />{{ project.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>

@@ -192,7 +192,7 @@
 /* Generic.Inserted & Diff Inserted */
 html { background: #5F5B6B; background: #5F5B6B linear_gradient(#938ea0, #5F5B6B) fixed; }
 
-body { padding: 50px 0; margin: 0; font: 14px/1.5 Josefin Sans, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #0B3142; font-weight: 300; }
+body { padding: 50px 0; margin: 0; font: 14px/1.5 Nunito Sans, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; font-weight: 300; }
 
 .wrapper { width: 640px; margin: 0 auto; background: #D6D3F0; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px; }
 
