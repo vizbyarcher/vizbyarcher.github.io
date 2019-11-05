@@ -8,9 +8,9 @@ First let's insert a link to some 920 pixel wide [Page](/assets/html/Romania_PRE
 
 Then let's insert a link to some 640 pixel wide [Page](/assets/html/Romania_PREZ_2100_640.html).
 
-And finally another link to [Page](/assets/html/Romania_ALL.html).
+And finally another link to a [Page](/assets/html/Romania_ALL.html).
 
-For fun, check this animated ![animated gif](/assets/images/animated1000.gif).
+For fun, check this animation: ![animated gif](/assets/images/animated1000.gif)
 
 Now let's see an image linking to a page:
 [![Bachelor Bucharest Map](/assets/images/cap_BachelorBucharestMap.PNG)](/assets/html/BachelorBucharestMap.html)
