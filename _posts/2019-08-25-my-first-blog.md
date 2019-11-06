@@ -6,7 +6,7 @@ Now I can start writing about something.
 
 First let's insert a link to some 920 pixel wide [Page](/assets/html/Romania_PREZ_2100_920.html).
 
-Another link to some 920 pixel wide [Page](assets/html/BISTRITA-NASAUD_PREZ_temp_2100_920.html).
+Another link to some 920 pixel wide [Page](/assets/html/BISTRITA-NASAUD_PREZ_temp_2100_920.html).
 
 Then let's insert a link to some 640 pixel wide [Page](/assets/html/Romania_PREZ_2100_640.html).
 
