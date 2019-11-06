@@ -6,11 +6,15 @@ Now I can start writing about something.
 
 First let's insert a link to some 920 pixel wide [Page](/assets/html/Romania_PREZ_2100_920.html).
 
+Another link to some 920 pixel wide [Page](assets/html/BISTRITA-NASAUD_PREZ_temp_2100_920.html).
+
 Then let's insert a link to some 640 pixel wide [Page](/assets/html/Romania_PREZ_2100_640.html).
 
 And finally another link to a [Page](/assets/html/Romania_ALL.html).
 
 For fun, check this animation: ![animated gif](/assets/images/animated1000.gif)
+
+Or this: ![Bistrita Nasaud animatie Prezenta alegeri ](/assets/images/BN1000.gif)
 
 Now let's see an image linking to a page:
 [![Bachelor Bucharest Map](/assets/images/cap_BachelorBucharestMap.PNG)](/assets/html/BachelorBucharestMap.html)
