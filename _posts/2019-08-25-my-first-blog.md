@@ -16,7 +16,7 @@ For fun, check this animation: ![animated gif](/assets/images/animated1000.gif)
 
 Or this: ![Bistrita Nasaud animatie Prezenta alegeri ](/assets/images/BN1000.gif)
 
-And this [link](/assets/html/COVASNA_PREZ_2100_640.html).
+And this [link](/assets/html/COVASNA_PREZ_2100_920.html).
 
 Now let's see an image linking to a page:
 [![Bachelor Bucharest Map](/assets/images/cap_BachelorBucharestMap.PNG)](/assets/html/BachelorBucharestMap.html)
