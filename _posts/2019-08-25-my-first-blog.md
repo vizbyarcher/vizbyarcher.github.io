@@ -18,6 +18,8 @@ Or this: ![Bistrita Nasaud animatie Prezenta alegeri ](/assets/images/BN1000.gif
 
 And this [link](/assets/html/COVASNA_PREZ_2100_920.html).
 
+This is a test for legend text adjustment: [link](/assets/html/RO_DIF_IOHANNIS_2019PZ1_2019EP_920.html).
+
 Now let's see an image linking to a page:
 [![Bachelor Bucharest Map](/assets/images/cap_BachelorBucharestMap.PNG)](/assets/html/BachelorBucharestMap.html)
 

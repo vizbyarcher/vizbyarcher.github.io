@@ -1,0 +1,271 @@
+I"�[<p>Now I can start writing about something.</p>
+
+<p>First let’s insert a link to some 920 pixel wide <a href="/assets/html/Romania_PREZ_2100_920.html">Page</a>.</p>
+
+<p>Another link to some 920 pixel wide <a href="/assets/html/BISTRITA-NASAUD_PREZ_temp_2100_920.html">Page</a>.</p>
+
+<p>Then let’s insert a link to some 640 pixel wide <a href="/assets/html/Romania_PREZ_2100_640.html">Page</a>.</p>
+
+<p>And finally another link to a <a href="/assets/html/Romania_ALL.html">Page</a>.</p>
+
+<p>For fun, check this animation: <img src="/assets/images/animated1000.gif" alt="animated gif" /></p>
+
+<p>Or this: <img src="/assets/images/BN1000.gif" alt="Bistrita Nasaud animatie Prezenta alegeri " /></p>
+
+<p>And this <a href="/assets/html/COVASNA_PREZ_2100_920.html">link</a>.</p>
+
+<p>This is a test for</p>
+
+<p>Now let’s see an image linking to a page:
+<a href="/assets/html/BachelorBucharestMap.html"><img src="/assets/images/cap_BachelorBucharestMap.PNG" alt="Bachelor Bucharest Map" /></a></p>
+
+<p>Let’s paste in another image.
+<img src="/assets/images/Capture6.PNG" alt="some screenshot" /></p>
+
+<p>HTML source code</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"2019-08-24-21-23-57.png"</span> <span class="na">width=</span><span class="s">" 450"</span> <span class="na">height=</span><span class="s">" 300"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<p>This should be a very very very long paragraph in order to test paragraph reflowing and warp text settings for both desktop and mobile versions of the same page.</p>
+
+<p>Code block with line numbering</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+</pre></td><td class="code"><pre><span class="kn">from</span> <span class="nn">bokeh.layouts</span> <span class="kn">import</span> <span class="n">column</span><span class="p">,</span> <span class="n">row</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">Slider</span><span class="p">,</span> <span class="n">WheelZoomTool</span><span class="p">,</span> <span class="n">PanTool</span><span class="p">,</span> <span class="n">HoverTool</span><span class="p">,</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">Slider</span><span class="p">,</span> <span class="n">WheelZoomTool</span><span class="p">,</span> <span class="n">PanTool</span><span class="p">,</span> <span class="n">HoverTool</span><span class="p">,</span> <span class="n">ColumnDataSource</span><span class="p">,</span> <span class="n">Slider</span><span class="p">,</span> <span class="n">WheelZoomTool</span><span class="p">,</span> <span class="n">PanTool</span><span class="p">,</span> <span class="n">HoverTool</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">Figure</span><span class="p">,</span> <span class="n">output_file</span><span class="p">,</span> <span class="n">show</span>
+<span class="kn">from</span> <span class="nn">bokeh.layouts</span> <span class="kn">import</span> <span class="n">widgetbox</span><span class="p">,</span> <span class="n">gridplot</span>
+<span class="kn">from</span> <span class="nn">bokeh.models.widgets</span> <span class="kn">import</span> <span class="n">Select</span><span class="p">,</span> <span class="n">DataTable</span><span class="p">,</span> <span class="n">DateFormatter</span><span class="p">,</span> <span class="n">TableColumn</span><span class="p">,</span> <span class="n">CheckboxGroup</span><span class="p">,</span> <span class="n">Div</span><span class="p">,</span> <span class="n">MultiSelect</span><span class="p">,</span> \
+    <span class="n">RangeSlider</span><span class="p">,</span> <span class="n">Div</span><span class="p">,</span> <span class="n">PreText</span>
+<span class="kn">from</span> <span class="nn">bokeh.models.widgets</span> <span class="kn">import</span> <span class="n">Panel</span><span class="p">,</span> <span class="n">Tabs</span>
+<span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">export_svgs</span><span class="p">,</span> <span class="n">export_png</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">DatetimeTickFormatter</span><span class="p">,</span> <span class="n">FuncTickFormatter</span><span class="p">,</span> <span class="n">Range1d</span><span class="p">,</span> <span class="n">LabelSet</span><span class="p">,</span> <span class="n">Label</span><span class="p">,</span> <span class="n">DataRange1d</span><span class="p">,</span> <span class="n">FactorRange</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">SingleIntervalTicker</span><span class="p">,</span> <span class="n">LinearAxis</span><span class="p">,</span> <span class="n">CategoricalAxis</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">LinearColorMapper</span><span class="p">,</span> <span class="n">BasicTicker</span><span class="p">,</span> <span class="n">PrintfTickFormatter</span><span class="p">,</span> <span class="n">ColorBar</span>
+<span class="kn">from</span> <span class="nn">bokeh.models.callbacks</span> <span class="kn">import</span> <span class="n">CustomJS</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">Arrow</span><span class="p">,</span> <span class="n">OpenHead</span><span class="p">,</span> <span class="n">NormalHead</span><span class="p">,</span> <span class="n">VeeHead</span>
+<span class="kn">from</span> <span class="nn">bokeh.models.annotations</span> <span class="kn">import</span> <span class="n">Title</span>
+<span class="kn">from</span> <span class="nn">bokeh.models.markers</span> <span class="kn">import</span> <span class="n">Circle</span>
+<span class="kn">from</span> <span class="nn">bokeh.models.glyphs</span> <span class="kn">import</span> <span class="n">Line</span>
+<span class="kn">from</span> <span class="nn">bokeh.transform</span> <span class="kn">import</span> <span class="n">linear_cmap</span>
+<span class="kn">from</span> <span class="nn">bokeh.resources</span> <span class="kn">import</span> <span class="n">CDN</span>
+<span class="kn">from</span> <span class="nn">bokeh.embed</span> <span class="kn">import</span> <span class="n">file_html</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">locale</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="c1"># https://gka.github.io/palettes/
+# https://stackoverflow.com/questions/40158529/pass-variables-from-bokeh-to-js-via-customjs?rq=1
+# https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+</span>
+<span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+<span class="c1"># pprint.pprint(locale.locale_alias)
+# print(time.strftime('%A'))
+# print(locale.getlocale(locale.LC_TIME))
+# locale.setlocale(locale.LC_TIME, 'romanian')
+# print(locale.getlocale(locale.LC_TIME))
+# print(time.strftime('%A'))
+</span>
+
+<span class="c1"># Import and clean input dataset:
+</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'exportPivot.csv'</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">':'</span><span class="p">,</span> <span class="s">''</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="c1"># print(df.head())
+</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="nb">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s">'Ani'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">'Ani'</span><span class="p">]</span><span class="o">.</span><span class="nb">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">r' [a-zA-Z]*'</span><span class="p">,</span> <span class="s">''</span><span class="p">)</span>
+<span class="c1"># df['Ani'] = pd.to_datetime(df['Ani'], infer_datetime_format=True)
+# df['Ani'] = pd.DatetimeIndex(df['Ani']).year
+</span><span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+          <span class="s">'Macroregiuni  regiuni de dezvoltare si judete'</span><span class="p">:</span> <span class="s">'Categorii'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s">'UM: Numar de persoane condamnate definitiv la 100000 locuitori'</span><span class="p">,</span>
+        <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+
+
+<span class="c1"># Make some general variables for dataset:
+</span>
+<span class="n">datasetrk</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1"># dataset parameter
+# 1: Lower is better, ascending order for ranking
+# 0: Higher is better, descending order for ranking
+</span><span class="n">colorbetter</span> <span class="o">=</span> <span class="s">'#2c7bb6'</span>
+<span class="n">colorworse</span> <span class="o">=</span> <span class="s">'#d7191c'</span>
+<span class="n">colorsworse</span> <span class="o">=</span> <span class="p">[</span><span class="s">'#fff0ae'</span><span class="p">,</span> <span class="s">'#ffe6a6'</span><span class="p">,</span> <span class="s">'#fedd9d'</span><span class="p">,</span> <span class="s">'#fed395'</span><span class="p">,</span> <span class="s">'#fdc98d'</span><span class="p">,</span> <span class="s">'#fcc085'</span><span class="p">,</span> <span class="s">'#fab77d'</span><span class="p">,</span> <span class="s">'#f9ac75'</span><span class="p">,</span> <span class="s">'#f7a26d'</span><span class="p">,</span> <span class="s">'#f59865'</span><span class="p">,</span>
+               <span class="s">'#f38e5d'</span><span class="p">,</span> <span class="s">'#f08456'</span><span class="p">,</span> <span class="s">'#ee7a4e'</span><span class="p">,</span> <span class="s">'#eb6f47'</span><span class="p">,</span> <span class="s">'#e8653f'</span><span class="p">,</span> <span class="s">'#e55938'</span><span class="p">,</span> <span class="s">'#e24d31'</span><span class="p">,</span> <span class="s">'#de402a'</span><span class="p">,</span> <span class="s">'#db2f23'</span><span class="p">,</span> <span class="s">'#d7191c'</span><span class="p">]</span>
+<span class="n">colorsbetter</span> <span class="o">=</span> <span class="p">[</span><span class="s">'#fff0ae'</span><span class="p">,</span> <span class="s">'#f6e9af'</span><span class="p">,</span> <span class="s">'#ece3b0'</span><span class="p">,</span> <span class="s">'#e4ddb1'</span><span class="p">,</span> <span class="s">'#dbd6b1'</span><span class="p">,</span> <span class="s">'#d2cfb2'</span><span class="p">,</span> <span class="s">'#c8c9b3'</span><span class="p">,</span> <span class="s">'#bfc3b3'</span><span class="p">,</span> <span class="s">'#b6bdb4'</span><span class="p">,</span> <span class="s">'#acb6b4'</span><span class="p">,</span>
+                <span class="s">'#a3b0b4'</span><span class="p">,</span> <span class="s">'#98aab5'</span><span class="p">,</span> <span class="s">'#8da4b5'</span><span class="p">,</span> <span class="s">'#839db5'</span><span class="p">,</span> <span class="s">'#7797b6'</span><span class="p">,</span> <span class="s">'#6c92b6'</span><span class="p">,</span> <span class="s">'#608cb6'</span><span class="p">,</span> <span class="s">'#5287b6'</span><span class="p">,</span> <span class="s">'#4180b6'</span><span class="p">,</span> <span class="s">'#2c7bb6'</span><span class="p">]</span>
+<span class="k">if</span> <span class="n">datasetrk</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+    <span class="n">colors</span> <span class="o">=</span> <span class="n">colorsworse</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">colors</span> <span class="o">=</span> <span class="n">colorsbetter</span>
+
+<span class="n">iqrlimit</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">upper</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span> <span class="o">+</span> <span class="n">iqrlimit</span> <span class="o">*</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span> <span class="o">-</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">))</span> <span class="o">+</span> <span class="n">iqrlimit</span> <span class="o">*</span> <span class="p">(</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span> <span class="o">-</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">))</span> <span class="o">+</span> <span class="n">iqrlimit</span> <span class="o">*</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span> <span class="o">-</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">))</span>
+<span class="n">lower</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span>
+    <span class="mf">0.25</span><span class="p">)</span> <span class="o">-</span> <span class="n">iqrlimit</span> <span class="o">*</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span> <span class="o">-</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">upper</span><span class="p">:</span>
+    <span class="n">highlimit</span> <span class="o">=</span> <span class="n">upper</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">highlimit</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="nb">min</span><span class="p">()</span> <span class="o">&lt;</span> <span class="n">lower</span><span class="p">:</span>
+    <span class="n">lowlimit</span> <span class="o">=</span> <span class="n">lower</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">lowlimit</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="nb">min</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">lowlimit</span><span class="p">,</span> <span class="n">highlimit</span><span class="p">)</span>
+<span class="n">mapper</span> <span class="o">=</span> <span class="n">LinearColorMapper</span><span class="p">(</span><span class="n">palette</span><span class="o">=</span><span class="n">colors</span><span class="p">,</span> <span class="n">low</span><span class="o">=</span><span class="n">lowlimit</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="n">highlimit</span><span class="p">)</span>
+
+<span class="n">periods</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Ani</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">periods</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="c1"># print(periods)
+</span><span class="n">categories</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Categorii</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">categories</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="c1"># print(categories)
+</span><span class="n">categories2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Categorii</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
+<span class="n">categories2</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="n">categories2</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s">'-'</span><span class="p">)</span>
+
+<span class="n">setmin</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="nb">min</span><span class="p">()</span>
+<span class="n">setmax</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Valoare</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">setmax</span><span class="o">*</span><span class="n">setmin</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">setheight</span> <span class="o">=</span> <span class="n">setmax</span> <span class="o">-</span> <span class="n">setmin</span>
+<span class="k">elif</span> <span class="n">setmax</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">setheight</span> <span class="o">=</span> <span class="n">setmax</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">setheight</span> <span class="o">=</span> <span class="o">-</span><span class="n">setmin</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'set height (data points) is:'</span><span class="p">,</span> <span class="n">setheight</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Code block without line numbering</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
+<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
+  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="table-example">Table Example</h2>
+<p>head1 | head two | three
+——-|———–|——
+ok | good fried fish | nice
+out of stock | good and plenty | nice
+ok | good biscuits | hmm
+ok | good soup drop | yummy</p>
+:ET
