@@ -26,6 +26,8 @@ Now let's see an image linking to a page:
 Let's paste in another image.
 ![some screenshot](/assets/images/Capture6.PNG)
 
+[This](/assets/html/grid2.html) is a test for a tile map based on CSS grid.
+
 HTML source code
 
 ```html

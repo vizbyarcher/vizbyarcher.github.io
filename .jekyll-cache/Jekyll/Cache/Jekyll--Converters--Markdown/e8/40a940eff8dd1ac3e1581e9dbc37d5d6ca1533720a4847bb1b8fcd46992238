@@ -1,4 +1,4 @@
-I"/\<p>Now I can start writing about something.</p>
+I"h\<p>Now I can start writing about something.</p>
 
 <p>First let’s insert a link to some 920 pixel wide <a href="/assets/html/Romania_PREZ_2100_920.html">Page</a>.</p>
 
@@ -14,13 +14,15 @@
 
 <p>And this <a href="/assets/html/COVASNA_PREZ_2100_920.html">link</a>.</p>
 
-<p>This is a test for legend text adjustment: <a href="/assets/html/RO_DIF_IOHANNIS_2019PZ1_2019EP_920.html">Page</a></p>
+<p>This is a test for legend text adjustment: <a href="/assets/html/RO_DIF_IOHANNIS_2019PZ1_2019EP_920.html">link</a>.</p>
 
 <p>Now let’s see an image linking to a page:
 <a href="/assets/html/BachelorBucharestMap.html"><img src="/assets/images/cap_BachelorBucharestMap.PNG" alt="Bachelor Bucharest Map" /></a></p>
 
 <p>Let’s paste in another image.
 <img src="/assets/images/Capture6.PNG" alt="some screenshot" /></p>
+
+<p>This is a test for a tile map based on CSS grid</p>
 
 <p>HTML source code</p>
 
